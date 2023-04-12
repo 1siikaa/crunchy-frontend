@@ -19,7 +19,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("https://crunchy-backend-orikvjnuy-1siikaa.vercel.app/orderData", {
+    let response = await fetch("https://crunchy-backend-mytf1pr23-1siikaa.vercel.app/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
