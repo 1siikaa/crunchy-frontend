@@ -8,7 +8,7 @@ export default function Home() {
   const [foodItems, setFoodItems] = useState([])
   const [search, setSearch] = useState('')
   const loadFoodItems = async () => {
-    let response = await fetch("https://crunchy-backend-g3fggzv1x-1siikaa.vercel.app/foodData", {
+    let response = await fetch("https://crunchy-backend-bv67jiquq-1siikaa.vercel.app/foodData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
