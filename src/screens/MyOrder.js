@@ -8,7 +8,7 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("https://crunchy-backend-mytf1pr23-1siikaa.vercel.app/myOrderData", {
+        await fetch("https://crunchy-backend-qznpzy06p-1siikaa.vercel.app/myOrderData", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
